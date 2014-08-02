@@ -1,0 +1,14 @@
+Changes
+lib/WWW/Google/APIDiscovery.pm
+lib/WWW/Google/APIDiscovery/API.pm
+lib/WWW/Google/APIDiscovery/API/MetaData.pm
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+SIGNATURE
+README
+t/00-load.t
+t/01-new.t
+t/02-discover.t
+t/manifest.t
+t/pod.t
