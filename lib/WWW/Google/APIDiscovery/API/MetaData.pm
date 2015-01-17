@@ -1,10 +1,6 @@
 package WWW::Google::APIDiscovery::API::MetaData;
 
-$WWW::Google::APIDiscovery::API::MetaData::VERSION = '0.14';
-
-use 5.006;
-use Moo;
-use namespace::clean;
+$WWW::Google::APIDiscovery::API::MetaData::VERSION = '0.15';
 
 =head1 NAME
 
@@ -12,9 +8,13 @@ WWW::Google::APIDiscovery::API::MetaData - Placeholder for supported APIS Meta D
 
 =head1 VERSION
 
-Version 0.14
+Version 0.15
 
 =cut
+
+use 5.006;
+use Moo;
+use namespace::clean;
 
 has id                => (is => 'ro');
 has name              => (is => 'ro');
@@ -132,7 +132,7 @@ L<http://search.cpan.org/dist/WWW-Google-APIDiscovery/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2011 - 2014 Mohammad S Anwar.
+Copyright (C) 2011 - 2015 Mohammad S Anwar.
 
 This  program  is  free software; you can redistribute it and/or modify it under
 the  terms  of the the Artistic License (2.0). You may obtain a copy of the full

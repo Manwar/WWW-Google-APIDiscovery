@@ -1,6 +1,16 @@
 package WWW::Google::APIDiscovery;
 
-$WWW::Google::APIDiscovery::VERSION = '0.14';
+$WWW::Google::APIDiscovery::VERSION = '0.15';
+
+=head1 NAME
+
+WWW::Google::APIDiscovery - Interface to Google API Discovery Service.
+
+=head1 VERSION
+
+Version 0.15
+
+=cut
 
 use 5.006;
 use JSON;
@@ -13,16 +23,6 @@ use WWW::Google::APIDiscovery::API::MetaData;
 use Moo;
 use namespace::clean;
 extends 'WWW::Google::UserAgent';
-
-=head1 NAME
-
-WWW::Google::APIDiscovery - Interface to Google API Discovery Service.
-
-=head1 VERSION
-
-Version 0.14
-
-=cut
 
 our $BASE_URL = 'https://www.googleapis.com/discovery/v1/apis';
 
@@ -178,7 +178,7 @@ L<http://search.cpan.org/dist/WWW-Google-APIDiscovery/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2011 - 2014 Mohammad S Anwar.
+Copyright (C) 2011 - 2015 Mohammad S Anwar.
 
 This  program  is  free software; you can redistribute it and/or modify it under
 the  terms  of the the Artistic License (2.0). You may obtain a copy of the full
