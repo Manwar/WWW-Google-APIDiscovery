@@ -1,6 +1,6 @@
 package WWW::Google::APIDiscovery;
 
-$WWW::Google::APIDiscovery::VERSION = '0.15';
+$WWW::Google::APIDiscovery::VERSION = '0.16';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ WWW::Google::APIDiscovery - Interface to Google API Discovery Service.
 
 =head1 VERSION
 
-Version 0.15
+Version 0.16
 
 =cut
 
@@ -44,8 +44,8 @@ features might change unexpectedly until it graduates.
     use strict; use warnings;
     use WWW::Google::APIDiscovery;
 
-    my $google = WWW::Google::APIDiscovery->new();
-    my $apis   = $google->supported_apis();
+    my $google = WWW::Google::APIDiscovery->new;
+    my $apis   = $google->supported_apis;
     my $meta   = $google->discover('customsearch:v1');
 
     print "Title: ", $meta->title, "\n";

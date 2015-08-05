@@ -1,5 +1,8 @@
 Revision history for WWW-Google-APIDiscovery
 
+0.16    Wed Aug 05 12:00:00 2015
+        - Upgraded to use WWW::Google::UserAgent v0.17.
+
 0.15    Sat Jan 17 10:10:00 2015
         - Removed SIGNATURE file.
         - Updated MANIFEST.SKIP file to ignore folder 'eumm/'.
