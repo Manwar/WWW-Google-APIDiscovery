@@ -1,5 +1,8 @@
 Revision history for WWW-Google-APIDiscovery
 
+0.17    Sun Aug 16 10:45:00 2015
+        - Upgraded to use WWW::Google::UserAgent v0.18.
+
 0.16    Wed Aug 05 12:00:00 2015
         - Upgraded to use WWW::Google::UserAgent v0.17.
 
