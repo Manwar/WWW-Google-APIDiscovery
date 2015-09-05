@@ -1,6 +1,6 @@
 package WWW::Google::APIDiscovery;
 
-$WWW::Google::APIDiscovery::VERSION = '0.17';
+$WWW::Google::APIDiscovery::VERSION = '0.18';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ WWW::Google::APIDiscovery - Interface to Google API Discovery Service.
 
 =head1 VERSION
 
-Version 0.17
+Version 0.18
 
 =cut
 
@@ -38,6 +38,8 @@ Currently supports version v1.
 
 IMPORTANT:The version v1 of the Google APIs Discovery Service is in Labs  and its
 features might change unexpectedly until it graduates.
+
+The official Google API document can be found L<here|https://developers.google.com/discovery/v1/getting_started>.
 
 =head1 SYNOPSIS
 
