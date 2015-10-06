@@ -1,6 +1,6 @@
 package WWW::Google::APIDiscovery;
 
-$WWW::Google::APIDiscovery::VERSION = '0.18';
+$WWW::Google::APIDiscovery::VERSION = '0.19';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ WWW::Google::APIDiscovery - Interface to Google API Discovery Service.
 
 =head1 VERSION
 
-Version 0.18
+Version 0.19
 
 =cut
 
